@@ -7,6 +7,7 @@ function BMICalculator(mass, height) {
     var BMI;
     BMI = mass/(height*height);
     return BMI
+    
 
 }
 let mass = parseInt(readline());
