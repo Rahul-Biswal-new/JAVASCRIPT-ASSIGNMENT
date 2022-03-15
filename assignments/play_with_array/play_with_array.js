@@ -7,7 +7,12 @@ function getEven(arr) {
 
         Write you code below
     */
-
+        // function isdiv(n)
+        // {
+        //     return n % 2==0
+        // }
+        var result = arr.filter(n=>n%2==0)
+        return result
 }
 
 function multiplyByN(arr, n) {
@@ -18,6 +23,8 @@ function multiplyByN(arr, n) {
             Output: [3,9,13,165]
         Write you code below
     */
+        let result = arr.map(n => num * n)
+        return result
 }
 
 function removeNthElement(arr, n) {
@@ -28,10 +35,22 @@ function removeNthElement(arr, n) {
             Output: [1,3,4,7]
         Write you code below
     */
+        let a=[]
+        let i =0
+        for(x of arr)
+         {
+            if (i!=n)
+            {
+             a.push(x)
+            }
+            i++
+        }
+        return a     
 }
 
 module.exports = {
-    getEven,
+    getEven, 
     multiplyByN,
     removeNthElement
 }
+

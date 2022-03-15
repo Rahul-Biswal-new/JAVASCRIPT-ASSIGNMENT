@@ -22,7 +22,7 @@ Input - 50, 5
 Output - 2
 
 Input - 80, 4
-Output - 5
+Output - 5  
 
 Input - 67, 0
 Output - INVALID INPUT
